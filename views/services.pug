@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title Our Services
+    link(rel='stylesheet', href='/styles.css')
+  body
+    include navbar.pug
+
+    section.services-hero
+      h1 Explore Our Services
+      p We offer a range of high-quality services designed to cater to your specific needs.
+    
+    section.services-list
+      .service
+        h2 Web Development
+        p From small business websites to large enterprise applications, we bring your vision to life with cutting-edge technology.
+      .service
+        h2 E-commerce Solutions
+        p Comprehensive e-commerce platforms to help you reach more customers and grow your business online.
+      .service
+        h2 Technical Support
+        p Reliable, around-the-clock support to keep your business running smoothly.
+    
+    section.call-to-action
+      h2 Ready to Get Started?
+      p Our team is here to help you achieve your goals.
+      a.button(href='/contact') Contact Us Today
+
+    include footer.pug

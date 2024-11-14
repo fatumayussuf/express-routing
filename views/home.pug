@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Home
+    link(rel='stylesheet', href='/styles.css')
+  body
+    include navbar.pug
+    
+    section.hero
+      h1 Welcome to Our Company!
+      p We provide innovative solutions and top-notch services to meet your needs.
+      p Discover what we can do for you, or reach out to learn more!
+      a.button(href='/services') Learn More
+
+    section.features
+      h2 What We Offer
+      .feature
+        img(src='https://www.orientsoftware.com/Themes/Content/Images/blog/2024-07-31/quality-assurance-vs-quality-control.webp' alt='Service 1')
+        h3 Quality Assurance
+        p Our team ensures high standards of quality across all services.
+      .feature
+        img(src='https://cdn3.vectorstock.com/i/1000x1000/74/47/customer-support-service-24-to-7-chat-icons-call-vector-44217447.jpg' alt='Service 2')
+        h3 24/7 Support
+        p Get round-the-clock assistance from our dedicated team.
+      .feature
+        img(src='https://textexpander.com/wp-content/uploads/word-image-79656-1.png' alt='Service 3')
+        h3 Customer Satisfaction
+        p We prioritize your satisfaction in all aspects of our work.
+
+    section.testimonials
+      h2 Client Testimonials
+      .testimonial
+        img(src='https://www.michaelpage.com.au/sites/michaelpage.com.au/files/2023-05/How%20to%20write%20employee%20testimonials.jpg' alt='Client 1')
+        p "The team is outstanding! Our project was a huge success." - Sarah J.
+      .testimonial
+        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18r4NC_pzJ3KV6wbdcWLAe3k-2j8zi7XMzQ&s' alt='Client 2')
+        p "24/7 support made a big difference. Highly reliable!" - Mike R.
+      .testimonial
+        img(src='https://www.shutterstock.com/image-photo/portrait-young-investor-banker-workplace-260nw-2364566447.jpg' alt='Client 3')
+        p "Professional and dependable service." - Emily T.
+
+    section.team
+      h2 Meet Our Team
+      .team-member
+        img(src='https://www.shutterstock.com/image-photo/senior-business-man-portrait-smile-260nw-2269148237.jpg' alt='Jane Doe')
+        h3 Jane Doe
+        p CEO & Founder with 15+ years of experience.
+      .team-member
+        img(src='https://www.shutterstock.com/image-photo/shot-young-man-sitting-table-260nw-503851213.jpg' alt='John Smith')
+        h3 John Smith
+        p Head of Operations ensuring smooth workflows.
+      .team-member
+        img(src='https://www.shutterstock.com/image-photo/young-man-going-over-his-260nw-2324199373.jpg' alt='Lisa Ray')
+        h3 Lisa Ray
+        p Customer Success Manager focused on client satisfaction.
+
+    include footer.pug
